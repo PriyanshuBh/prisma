@@ -10,9 +10,20 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "dependencies": {
     "@prisma/client": "^6.7.0",
-    "prisma": "^6.7.0",
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "prisma": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
